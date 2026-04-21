@@ -1,31 +1,28 @@
-# CS210 Project Three – Corner Grocer
+# CS210 Portfolio Project – Corner Grocer
 
-This project is a C++ program that reads grocery item data from an input file and tracks how often each item appears. The program uses a map to store item names and their frequencies, then allows the user to interact with the data through a menu.
+## Project Summary
+This project analyzes grocery item purchase frequency from an input file. The program reads item data, stores the frequency of each item using a map, and allows the user to view results in multiple formats, including a list of item counts, individual item searches, and a histogram display. This simulates how a business might track and analyze purchasing trends.
 
-## Features
-- Search for a specific item and see how many times it appears
-- Print all items with their frequencies
-- Display a histogram using asterisks
-- Save frequency data to an output file (`frequency.dat`)
+## What I Did Well
+I structured the program using functions instead of placing all logic in main(), which improved readability and organization. I also used a map data structure to efficiently store and retrieve item frequencies. Additionally, I formatted the output clearly so users can easily understand the results.
 
-## How It Works
-- The program reads from `CS210_Project_Three_Input_File.txt`
-- Each item is stored in a `map<string, int>`
-- A menu allows the user to choose different actions
-- Input is validated to prevent crashes or invalid entries
+## Areas for Improvement
+I could improve the program by adding stronger input validation to handle unexpected user input. Another enhancement would be allowing users to select different input files instead of using a fixed file name. Adding sorting or exporting features would also make the program more useful.
 
-## Files Included
-- `groceryMain.cpp` – main program and user interaction
-- `groceryClass.cpp` – class function implementations
-- `grocery.h` – class definition
-- `CS210_Project_Three_Input_File.txt` – input data file
+## Challenges and Solutions
+The most challenging part of this project was working with file input and correctly storing item frequencies in a map. I overcame this by breaking the problem into smaller steps and testing each part individually. I also used course materials and external resources to reinforce my understanding.
 
-## How to Run
-1. Make sure all files are in the same directory
-2. Compile the program
-3. Run the executable
-4. Follow the menu prompts
+## Transferable Skills
+This project strengthened my ability to work with file input/output, maps, loops, and functions. These skills are directly applicable to future programming projects and coursework.
 
-## Notes
-- Item searches are case-sensitive (ex: "Apples" is different from "apples")
-- The program creates a backup file named `frequency.dat`
+## Maintainability and Readability
+The program is maintainable due to its use of clear function structure, descriptive variable names, and consistent formatting. Comments are included to explain key parts of the code, making it easier for other developers to understand and modify.
+
+## How to Run the Program
+1. Ensure the input file is in the correct directory.
+2. Compile the program using a C++ compiler.
+3. Run the executable and follow the menu prompts.
+
+## Author
+Josh Dorsey  
+CS210 – Programming Languages
